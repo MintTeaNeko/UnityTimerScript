@@ -13,7 +13,8 @@ public class UnityTimerScript : MonoBehaviour
 
     private void RaiseOnFlagReset()
     {
-        if (OnFlagReset != null) OnFlagReset();
+        if (OnFlagReset != null) 
+            OnFlagReset();
     }
 
     private void Start()
