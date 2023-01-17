@@ -35,5 +35,7 @@ public class UnityTimerScript : MonoBehaviour
                 RaiseOnFlagReset();
             }
         }
+        else
+            _timer = 0f;
     }
 }
